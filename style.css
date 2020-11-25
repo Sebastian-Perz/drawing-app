@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+canvas {
+  border: 1px solid #111;
+}
+
+.toolbox {
+  background-color: darkgray;
+  padding: 1rem;
+  width: 802px;
+  border: 1px solid #111;
+  display: flex;
+}
+.toolbox > * {
+  background-color: white;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin: 0.1rem;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
